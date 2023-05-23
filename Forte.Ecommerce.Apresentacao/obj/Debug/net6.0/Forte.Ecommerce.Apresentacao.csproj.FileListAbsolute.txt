@@ -1,0 +1,12 @@
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\bin\Debug\net6.0\Forte.Ecommerce.Apresentacao.deps.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\bin\Debug\net6.0\Forte.Ecommerce.Apresentacao.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\bin\Debug\net6.0\Forte.Ecommerce.Apresentacao.pdb
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.csproj.AssemblyReference.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.AssemblyInfoInputs.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.AssemblyInfo.cs
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.csproj.CoreCompileInputs.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\refint\Forte.Ecommerce.Apresentacao.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\Forte.Ecommerce.Apresentacao.pdb
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Apresentacao\obj\Debug\net6.0\ref\Forte.Ecommerce.Apresentacao.dll

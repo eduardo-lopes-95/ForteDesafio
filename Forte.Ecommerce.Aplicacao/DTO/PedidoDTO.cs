@@ -2,5 +2,6 @@
 
 public class PedidoDTO
 {
-    public Guid Id { get; set; }
+    public int QuantidadeProdutos { get; set; }
+    public decimal ValorTotalPedido { get; set; }
 }

@@ -2,7 +2,7 @@
 
 namespace Forte.Ecommerce.Dominio.Interfaces
 {
-    internal interface IServicoPedido : IServico<PedidoEntidade>
+    public interface IServicoPedido : IServico<PedidoEntidade>
     {
     }
 }

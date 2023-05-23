@@ -1,0 +1,5 @@
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Infraestrutura.Data\obj\Debug\net6.0\Forte.Ecommerce.Infraestrutura.Data.csproj.AssemblyReference.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Infraestrutura.Data\obj\Debug\net6.0\Forte.Ecommerce.Infraestrutura.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Infraestrutura.Data\obj\Debug\net6.0\Forte.Ecommerce.Infraestrutura.Data.AssemblyInfoInputs.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Infraestrutura.Data\obj\Debug\net6.0\Forte.Ecommerce.Infraestrutura.Data.AssemblyInfo.cs
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce.Infraestrutura.Data\obj\Debug\net6.0\Forte.Ecommerce.Infraestrutura.Data.csproj.CoreCompileInputs.cache

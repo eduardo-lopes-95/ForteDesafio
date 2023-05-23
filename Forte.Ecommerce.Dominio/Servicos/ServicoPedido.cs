@@ -5,7 +5,10 @@ namespace Forte.Ecommerce.Dominio.Servicos;
 
 public class ServicoPedido : Servico<PedidoEntidade>, IServicoPedido
 {
-    public ServicoPedido(IRepositorio<PedidoEntidade> Repositorio) : base(Repositorio)
+    public readonly IRepositorioPedido _repositorioPedido;
+
+    public ServicoPedido(IRepositorioPedido repositorioPedido) : base (repositorioPedido)
     {
+        _repositorioPedido = repositorioPedido;
     }
 }

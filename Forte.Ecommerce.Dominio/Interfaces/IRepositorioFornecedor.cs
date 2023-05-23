@@ -2,6 +2,6 @@
 
 namespace Forte.Ecommerce.Dominio.Interfaces;
 
-public interface IRepositorioForncedor : IRepositorio<FornecedorEntidade>
+public interface IRepositorioFornecedor : IRepositorio<FornecedorEntidade>
 {
 }

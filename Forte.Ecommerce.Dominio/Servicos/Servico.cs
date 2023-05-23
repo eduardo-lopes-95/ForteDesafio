@@ -2,40 +2,35 @@
 
 namespace Forte.Ecommerce.Dominio.Servicos;
 
-public abstract class Servico<TEntity> : IDisposable, IServico<TEntity> where TEntity : class
+public abstract class Servico<TEntidade> : IServico<TEntidade> where TEntidade : class
 {
-    private readonly IRepositorio<TEntity> _repositorio;
+    private readonly IRepositorio<TEntidade> _repositorio;
 
-    protected Servico(IRepositorio<TEntity> Repositorio)
+    protected Servico(IRepositorio<TEntidade> Repositorio)
     {
         _repositorio = Repositorio;
     }
 
-    public IEnumerable<TEntity> GetAll()
+    public IEnumerable<TEntidade> SelecioneTodos()
     {
-        return _repositorio.GetAll();
+        return _repositorio.SelecionarTodos();
     }
 
-    public TEntity GetById(Guid id)
+    public TEntidade SelecionarPorId(Guid id)
     {
-        return _repositorio.GetById(id);
+        return _repositorio.SelecionarPorId(id);
     }
-    public virtual void Add(TEntity obj)
+    public Guid Incluir(TEntidade obj)
     {
-        _repositorio.Add(obj);
-    }
-
-    public virtual void Update(TEntity obj)
-    {
-        _repositorio.Update(obj);
-    }
-    public virtual void Remove(TEntity obj)
-    {
-        _repositorio.Remove(obj);
+        return _repositorio.Incluir(obj);
     }
 
-    public void Dispose()
+    public void Alterar(TEntidade obj)
     {
-        throw new NotImplementedException();
+        _repositorio.Alterar(obj);
+    }
+    public void Excluir(Guid id)
+    {
+        _repositorio.Excluir(id);
     }
 }

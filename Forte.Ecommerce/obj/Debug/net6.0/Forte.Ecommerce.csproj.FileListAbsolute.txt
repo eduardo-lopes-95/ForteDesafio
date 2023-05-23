@@ -30,3 +30,35 @@ C:\Users\Eduardo Sabino\source\repos\Forte.Ecommerce\Forte.Ecommerce\obj\Debug\n
 C:\Users\Eduardo Sabino\source\repos\Forte.Ecommerce\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.pdb
 C:\Users\Eduardo Sabino\source\repos\Forte.Ecommerce\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.genruntimeconfig.cache
 C:\Users\Eduardo Sabino\source\repos\Forte.Ecommerce\Forte.Ecommerce\obj\Debug\net6.0\ref\Forte.Ecommerce.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\appsettings.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Forte.Ecommerce.exe
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Forte.Ecommerce.deps.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Forte.Ecommerce.runtimeconfig.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Forte.Ecommerce.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Forte.Ecommerce.pdb
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.csproj.AssemblyReference.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.AssemblyInfoInputs.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.AssemblyInfo.cs
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.Forte.Ecommerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.build.Forte.Ecommerce.props
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Forte.Ecommerce.props
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Forte.Ecommerce.props
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\scopedcss\bundle\Forte.Ecommerce.styles.css
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.csproj.CopyComplete
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\refint\Forte.Ecommerce.dll
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.pdb
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\Forte.Ecommerce.genruntimeconfig.cache
+C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce\obj\Debug\net6.0\ref\Forte.Ecommerce.dll
