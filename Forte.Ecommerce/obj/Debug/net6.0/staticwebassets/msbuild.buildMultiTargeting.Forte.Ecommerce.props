@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Forte.Ecommerce.props" />
+</Project>
