@@ -11,4 +11,6 @@ public class ServicoPedido : Servico<PedidoEntidade>, IServicoPedido
     {
         _repositorioPedido = repositorioPedido;
     }
+
+
 }

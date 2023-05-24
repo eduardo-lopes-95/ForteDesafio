@@ -1,9 +1,11 @@
-﻿namespace Forte.Ecommerce.Dominio.Interfaces
+﻿using Forte.Ecommerce.Dominio.Entidades;
+
+namespace Forte.Ecommerce.Dominio.Interfaces
 {
-    public interface IServico<TEntidade> where TEntidade : class
+    public interface IServico<TEntidade> where TEntidade : Entidade
     {
         TEntidade SelecionarPorId(Guid id);
-        IEnumerable<TEntidade> SelecioneTodos();
+        IEnumerable<TEntidade> SelecionarTodos();
         Guid Incluir(TEntidade entidade);
         void Alterar(TEntidade obj);
         void Excluir(Guid id);

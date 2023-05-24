@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce", "Forte.Ecommerce\Forte.Ecommerce.csproj", "{7A589049-5156-4952-9643-486D416E0AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Api", "Forte.Ecommerce\Forte.Ecommerce.Api.csproj", "{7A589049-5156-4952-9643-486D416E0AE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{5703758D-DD34-4306-89FD-8FB20996F281}"
 EndProject
@@ -19,17 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Aplicacao",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Apresentacao", "Forte.Ecommerce.Apresentacao\Forte.Ecommerce.Apresentacao.csproj", "{D55992C1-16D0-41D3-B0C5-59228C42DF1D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9B051073-6297-405A-A654-52221F59A8C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Infraestrutura.Data", "Forte.Ecommerce.Infraestrutura.Data\Forte.Ecommerce.Infraestrutura.Data.csproj", "{585CCD3D-4E40-4385-B0ED-29D5F08DF655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forte.Ecommerce.Infraestrutura.Data", "Forte.Ecommerce.Infraestrutura.Data\Forte.Ecommerce.Infraestrutura.Data.csproj", "{585CCD3D-4E40-4385-B0ED-29D5F08DF655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC", "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj", "{836F8B90-4545-4196-9C43-ACAEADB52581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forte.Ecommerce.Infraestrutura.Repositorio", "Forte.Ecommerce.Infraestrutura.Repositorio\Forte.Ecommerce.Infraestrutura.Repositorio.csproj", "{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{78EAADE0-CC7A-44DB-8249-3C83923DBBE0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forte.Ecommerce.Infraestrutura.CrossCutting.Adapter", "Forte.Ecommerce.Infraestrutura.CrossCutting.Adapter\Forte.Ecommerce.Infraestrutura.CrossCutting.Adapter.csproj", "{E92DF7AE-F653-470F-95EB-435092B7A067}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC", "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj", "{836F8B90-4545-4196-9C43-ACAEADB52581}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Servicos", "5 - Servicos", "{D37E6CC2-75E9-460F-8862-7EE149B522E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,14 +51,6 @@ Global
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E92DF7AE-F653-470F-95EB-435092B7A067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E92DF7AE-F653-470F-95EB-435092B7A067}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E92DF7AE-F653-470F-95EB-435092B7A067}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E92DF7AE-F653-470F-95EB-435092B7A067}.Release|Any CPU.Build.0 = Release|Any CPU
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -74,15 +60,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{7A589049-5156-4952-9643-486D416E0AE5} = {D37E6CC2-75E9-460F-8862-7EE149B522E1}
 		{4760294F-9611-4B19-814F-CE02B8012F3E} = {6A9740A2-6C17-4258-B944-2104841A1462}
 		{2A694082-28E2-4EA5-A852-283B8FAFEEE2} = {9A2A38BF-A63D-487F-8623-BF7C8FC5C9FE}
 		{D55992C1-16D0-41D3-B0C5-59228C42DF1D} = {5703758D-DD34-4306-89FD-8FB20996F281}
-		{9B051073-6297-405A-A654-52221F59A8C6} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
-		{CDAB5BC5-7790-48FC-93D4-79D2CD41A9F3} = {9B051073-6297-405A-A654-52221F59A8C6}
-		{78EAADE0-CC7A-44DB-8249-3C83923DBBE0} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
-		{E92DF7AE-F653-470F-95EB-435092B7A067} = {78EAADE0-CC7A-44DB-8249-3C83923DBBE0}
-		{836F8B90-4545-4196-9C43-ACAEADB52581} = {78EAADE0-CC7A-44DB-8249-3C83923DBBE0}
+		{836F8B90-4545-4196-9C43-ACAEADB52581} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F337328-2A9B-48C3-A387-10279C8C7E25}

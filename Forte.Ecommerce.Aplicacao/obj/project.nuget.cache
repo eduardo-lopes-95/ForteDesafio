@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5ttC70agLRAZbng3M16d30apBjXlNS8ZfcioUaSikT9fTjT912hGKyvynwKR98yYe2VhkDu4YM4Qh3sAeSAD3A==",
+  "dgSpecHash": "1lDpDPb8zj6cUAY4e8NvQj6y3UqIGiz+4HzKUekErJEuvC0b/bShlvqwMTRgp9MFKQvZL4KZVcPqvwSTMW4lBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

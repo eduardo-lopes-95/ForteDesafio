@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Forte.Ecommerce.Infraestrutura.Data.Mapeamentos;
 
-public class MapBase<T> : IEntityTypeConfiguration<T> where T : Entidade<T>
+public class MapBase<T> : IEntityTypeConfiguration<T> where T : Entidade
 {
     public virtual void Configure(EntityTypeBuilder<T> builder)
     {

@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce\\Forte.Ecommerce.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
+        "projectName": "Forte.Ecommerce.Aplicacao",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj",
+        "projectName": "Forte.Ecommerce.Dominio",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj",
+        "projectName": "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj"
+              },
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj"
+              },
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj",
+        "projectName": "Forte.Ecommerce.Infraestrutura.Data",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce\\Forte.Ecommerce.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce\\Forte.Ecommerce.Api.csproj",
+        "projectName": "Forte.Ecommerce.Api",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce\\Forte.Ecommerce.Api.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj"
+              },
+              "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj": {
+                "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

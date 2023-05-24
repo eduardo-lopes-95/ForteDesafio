@@ -7,6 +7,5 @@ public class FornecedorEntidade : Entidade
     public string RazaoSocial { get; set; } = string.Empty;
     public string Cnpj { get; set; } = string.Empty;
     public string Uf { get; set; } = string.Empty;
-    public Guid ProdutoId { get; set; }
-    public virtual ProdutoEntidade Produto { get; set; } = new ProdutoEntidade();
+    public virtual ICollection<PedidoEntidade> Pedidos { get; set; } = new List<PedidoEntidade>();
 }

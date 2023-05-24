@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "onNoBAepdQ4QFWV3XqU4OwJIe5/qjMIN641IxPmDIIk=",
-  "Source": "Forte.Ecommerce",
-  "BasePath": "_content/Forte.Ecommerce",
+  "Hash": "pn2/JeSN8imB8NIxsxh08coGsCuMyeE8QTOZYSsj7IQ=",
+  "Source": "Forte.Ecommerce.Api",
+  "BasePath": "_content/Forte.Ecommerce.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

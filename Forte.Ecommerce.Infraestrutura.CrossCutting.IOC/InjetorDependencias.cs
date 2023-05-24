@@ -1,5 +1,6 @@
-﻿using Forte.Ecommerce.Dominio.Interfaces;
-using Forte.Ecommerce.Dominio.Interfaces.Servicos;
+﻿using Forte.Ecommerce.Aplicacao.Interfaces;
+using Forte.Ecommerce.Aplicacao.Servicos;
+using Forte.Ecommerce.Dominio.Interfaces;
 using Forte.Ecommerce.Dominio.Servicos;
 using Forte.Ecommerce.Infraestrutura.Data.Repositorios;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,8 +12,10 @@ public class InjetorDependencias
     public static void Registrar(IServiceCollection svcCollection)
     {
         //Aplicação
-        svcCollection.AddScoped(typeof(IAppBase<,>), typeof(ServicoAppBase<,>));
-        svcCollection.AddScoped<IPratoApp, PratoApp>();
+        svcCollection.AddScoped(typeof(IAplicacao<,>), typeof(AplicacaoServico<,>));
+        svcCollection.AddScoped<IAplicacaoFornecedor, AplicacaoServicoFornecedor>();
+        svcCollection.AddScoped<IAplicacaoProduto, AplicacaoServicoProduto>();
+        svcCollection.AddScoped<IAplicacaoPedido, AplicacaoServicoPedido>();
 
         //Domínio
         svcCollection.AddScoped(typeof(IServico<>), typeof(Servico<>));

@@ -1,6 +1,17 @@
+using Forte.Ecommerce.Aplicacao;
+using Forte.Ecommerce.Infraestrutura.CrossCutting.IOC;
+using Forte.Ecommerce.Infraestrutura.Data.Contextos;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<Contexto>(c =>
+    c.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnectionString")));
+
+InjetorDependencias.Registrar(builder.Services);
+
+builder.Services.AddAutoMapper(x => x.AddProfile(new MappingEntidade()));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

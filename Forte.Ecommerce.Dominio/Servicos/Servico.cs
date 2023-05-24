@@ -1,17 +1,18 @@
-﻿using Forte.Ecommerce.Dominio.Interfaces;
+﻿using Forte.Ecommerce.Dominio.Entidades;
+using Forte.Ecommerce.Dominio.Interfaces;
 
 namespace Forte.Ecommerce.Dominio.Servicos;
 
-public abstract class Servico<TEntidade> : IServico<TEntidade> where TEntidade : class
+public class Servico<TEntidade> : IServico<TEntidade> where TEntidade : Entidade
 {
     private readonly IRepositorio<TEntidade> _repositorio;
 
-    protected Servico(IRepositorio<TEntidade> Repositorio)
+    public Servico(IRepositorio<TEntidade> Repositorio)
     {
         _repositorio = Repositorio;
     }
 
-    public IEnumerable<TEntidade> SelecioneTodos()
+    public IEnumerable<TEntidade> SelecionarTodos()
     {
         return _repositorio.SelecionarTodos();
     }

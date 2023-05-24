@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Forte.Ecommerce.Api.props" />
+</Project>

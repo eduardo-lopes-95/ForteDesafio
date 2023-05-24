@@ -1,6 +1,6 @@
 ﻿namespace Forte.Ecommerce.Aplicacao.DTO;
 
-public class FornecedorDTO
+public class FornecedorDTO : DTOBase
 {
     public string NomeCompleto { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;

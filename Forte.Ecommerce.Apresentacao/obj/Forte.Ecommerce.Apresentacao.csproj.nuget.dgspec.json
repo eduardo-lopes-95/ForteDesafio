@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj": {}
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj": {
+    "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj",
+        "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj",
         "projectName": "Forte.Ecommerce.Apresentacao",
-        "projectPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj",
-        "packagesPath": "C:\\Users\\07-05-007\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\obj\\",
+        "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\Forte.Ecommerce.Apresentacao.csproj",
+        "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Apresentacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\07-05-007\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

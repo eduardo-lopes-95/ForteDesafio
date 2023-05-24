@@ -3259,36 +3259,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\07-05-007\\.nuget\\packages\\": {}
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\Forte.Ecommerce.Infraestrutura.Repositorio.csproj",
+      "projectUniqueName": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\Forte.Ecommerce.Infraestrutura.Repositorio.csproj",
       "projectName": "Forte.Ecommerce.Infraestrutura.Repositorio",
-      "projectPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\Forte.Ecommerce.Infraestrutura.Repositorio.csproj",
-      "packagesPath": "C:\\Users\\07-05-007\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\obj\\",
+      "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\Forte.Ecommerce.Infraestrutura.Repositorio.csproj",
+      "packagesPath": "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\07-05-007\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eduardo Sabino\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
-              "projectPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj"
+            "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Dominio\\Forte.Ecommerce.Dominio.csproj"
             },
-            "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj": {
-              "projectPath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj"
+            "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj": {
+              "projectPath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Infraestrutura.Data\\Forte.Ecommerce.Infraestrutura.Data.csproj"
             }
           }
         }
