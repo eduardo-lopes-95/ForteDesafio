@@ -12,9 +12,9 @@ namespace Forte.Ecommerce.Api.Controllers
         where TEntidade : Entidade
         where EntidadeDTO : DTOBase
     {
-        private readonly IAplicacao<Entidade, DTOBase> aplicacao;
+        readonly protected IAplicacao<TEntidade, EntidadeDTO> aplicacao;
 
-        public ControllerBase(IAplicacao<Entidade, DTOBase> aplicacao)
+        public ControllerBase(IAplicacao<TEntidade, EntidadeDTO> aplicacao)
         {
             this.aplicacao = aplicacao;
         }

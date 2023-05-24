@@ -15,7 +15,7 @@ public class MapProduto : MapBase<ProdutoEntidade>
         builder
             .Property(p => p.Nome)
             .HasColumnName("Nome")
-            .HasMaxLength(100)
+            .HasMaxLength(255)
             .IsRequired();
        
         builder
@@ -27,7 +27,7 @@ public class MapProduto : MapBase<ProdutoEntidade>
         builder
             .Property(p => p.ValorProduto)
             .HasColumnName("ValorProduto")
-            .HasMaxLength(20)
+            .HasMaxLength(255)
             .IsRequired();
     }
 }

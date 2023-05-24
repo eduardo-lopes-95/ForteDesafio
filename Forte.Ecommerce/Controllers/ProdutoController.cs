@@ -6,7 +6,7 @@ namespace Forte.Ecommerce.Api.Controllers;
 
 public class ProdutoController : ControllerBase<ProdutoEntidade, ProdutoDTO>
 {
-    public ProdutoController(IAplicacao<Entidade, DTOBase> aplicacao) : base(aplicacao)
+    public ProdutoController(IAplicacaoProduto aplicacao) : base(aplicacao)
     {
     }
 }

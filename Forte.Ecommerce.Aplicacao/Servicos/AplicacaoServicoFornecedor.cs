@@ -6,7 +6,7 @@ using Forte.Ecommerce.Dominio.Interfaces;
 
 namespace Forte.Ecommerce.Aplicacao.Servicos;
 
-public class AplicacaoServicoFornecedor : AplicacaoServico<FornecedorEntidade, ProdutoDTO>, IAplicacaoFornecedor
+public class AplicacaoServicoFornecedor : AplicacaoServico<FornecedorEntidade, FornecedorDTO>, IAplicacaoFornecedor
 {
     public AplicacaoServicoFornecedor(IServico<FornecedorEntidade> servico, IMapper iMapper) : base(servico, iMapper)
     {

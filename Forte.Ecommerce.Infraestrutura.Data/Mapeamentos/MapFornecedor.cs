@@ -16,31 +16,31 @@ public class MapFornecedor : MapBase<FornecedorEntidade>
             .Property(f => f.NomeCompleto)
             .IsRequired()
             .HasColumnName("NomeCompleto")
-            .HasMaxLength(100);
+            .HasMaxLength(255);
 
         builder
             .Property(f => f.Email)
             .IsRequired()
             .HasColumnName("Email")
-            .HasMaxLength(100);
+            .HasMaxLength(255);
 
         builder
             .Property(f => f.RazaoSocial)
             .IsRequired()
             .HasColumnName("RazaoSocial")
-            .HasMaxLength(100);
+            .HasMaxLength(255);
 
         builder
             .Property(f => f.Cnpj)
             .IsRequired()
             .HasColumnName("Cnpj")
-            .HasMaxLength(14);
+            .HasMaxLength(255);
        
         builder
             .Property(f => f.Uf)
             .IsRequired()
             .HasColumnName("Uf")
-            .HasMaxLength(2);
+            .HasMaxLength(255);
 
     }
 }

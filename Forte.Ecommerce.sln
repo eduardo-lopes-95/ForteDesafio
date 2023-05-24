@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Api", "Forte.Ecommerce\Forte.Ecommerce.Api.csproj", "{7A589049-5156-4952-9643-486D416E0AE5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{5703758D-DD34-4306-89FD-8FB20996F281}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{9A2A38BF-A63D-487F-8623-BF7C8FC5C9FE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{6A9740A2-6C17-4258-B944-2104841A1462}"
@@ -17,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Dominio", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Aplicacao", "Forte.Ecommerce.Aplicacao\Forte.Ecommerce.Aplicacao.csproj", "{2A694082-28E2-4EA5-A852-283B8FAFEEE2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Apresentacao", "Forte.Ecommerce.Apresentacao\Forte.Ecommerce.Apresentacao.csproj", "{D55992C1-16D0-41D3-B0C5-59228C42DF1D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Infraestrutura.Data", "Forte.Ecommerce.Infraestrutura.Data\Forte.Ecommerce.Infraestrutura.Data.csproj", "{585CCD3D-4E40-4385-B0ED-29D5F08DF655}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC", "Forte.Ecommerce.Infraestrutura.CrossCutting.IOC\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.csproj", "{836F8B90-4545-4196-9C43-ACAEADB52581}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Servicos", "5 - Servicos", "{D37E6CC2-75E9-460F-8862-7EE149B522E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{855A1709-189D-4700-BBEF-F697B3C49E3C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0728D272-B87B-40E1-9247-864DF977CEA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		{2A694082-28E2-4EA5-A852-283B8FAFEEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A694082-28E2-4EA5-A852-283B8FAFEEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A694082-28E2-4EA5-A852-283B8FAFEEE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D55992C1-16D0-41D3-B0C5-59228C42DF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D55992C1-16D0-41D3-B0C5-59228C42DF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D55992C1-16D0-41D3-B0C5-59228C42DF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D55992C1-16D0-41D3-B0C5-59228C42DF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +51,10 @@ Global
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836F8B90-4545-4196-9C43-ACAEADB52581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0728D272-B87B-40E1-9247-864DF977CEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0728D272-B87B-40E1-9247-864DF977CEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0728D272-B87B-40E1-9247-864DF977CEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0728D272-B87B-40E1-9247-864DF977CEA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,7 +63,6 @@ Global
 		{7A589049-5156-4952-9643-486D416E0AE5} = {D37E6CC2-75E9-460F-8862-7EE149B522E1}
 		{4760294F-9611-4B19-814F-CE02B8012F3E} = {6A9740A2-6C17-4258-B944-2104841A1462}
 		{2A694082-28E2-4EA5-A852-283B8FAFEEE2} = {9A2A38BF-A63D-487F-8623-BF7C8FC5C9FE}
-		{D55992C1-16D0-41D3-B0C5-59228C42DF1D} = {5703758D-DD34-4306-89FD-8FB20996F281}
 		{585CCD3D-4E40-4385-B0ED-29D5F08DF655} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
 		{836F8B90-4545-4196-9C43-ACAEADB52581} = {41ABDE0A-A225-47B4-8F1C-29A14FA22371}
 	EndGlobalSection

@@ -21,6 +21,8 @@ public class AplicacaoServico<TEntidade, TEntidadeDTO> : IAplicacao<TEntidade, T
 
     public Guid Incluir(TEntidadeDTO obj)
     {
+        var map = iMapper.Map<FornecedorDTO>(obj);
+        var map2 = iMapper.Map<TEntidade>(map);
         return servico.Incluir(iMapper.Map<TEntidade>(obj));
     }
 

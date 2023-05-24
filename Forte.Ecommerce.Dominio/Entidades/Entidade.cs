@@ -2,6 +2,6 @@
 
 public class Entidade
 {
-    public Guid Id { get; protected set; }
-    public DateTime CriadoEm { get; protected set; }
+    public Guid Id { get; set; }
+    public DateTime CriadoEm { get; set; }
 }

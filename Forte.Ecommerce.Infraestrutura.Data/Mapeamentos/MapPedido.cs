@@ -16,13 +16,13 @@ public class MapPedido : MapBase<PedidoEntidade>
             .Property(p => p.Codigo)
             .IsRequired()
             .HasColumnName("CodigoProduto")
-            .HasMaxLength(10);
+            .HasMaxLength(255);
 
         builder
             .Property(p => p.QuantidadeProdutos)
             .IsRequired()
             .HasColumnName("QuantidadeProdutos")
-            .HasMaxLength(10);
+            .HasMaxLength(255);
 
         builder
             .Property(p => p.ValorTotalPedido)

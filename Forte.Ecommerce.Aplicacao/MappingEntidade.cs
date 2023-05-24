@@ -8,7 +8,7 @@ public class MappingEntidade : Profile
 {
     public MappingEntidade()
     {
-        CreateMap<FornecedorEntidade, ProdutoDTO>().ReverseMap();
+        CreateMap<FornecedorEntidade, FornecedorDTO>().ReverseMap();
         CreateMap<ProdutoEntidade, ProdutoDTO>().ReverseMap();
         CreateMap<PedidoEntidade, PedidoDTO>().ReverseMap();
     }

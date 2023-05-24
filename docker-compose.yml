@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  forte.ecommerce.api:
+    image: ${DOCKER_REGISTRY-}forteecommerceapi
+    build:
+      context: .
+      dockerfile: Forte.Ecommerce/Dockerfile
+    ports:
+        - "8080:80"
+    depends_on:
+        - db
+  
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+        - "1433:1433"
+    
+    environment:
+        SA_PASSWORD: "yourStrong(!)Password"
+        ACCEPT_EULA: "Y"
