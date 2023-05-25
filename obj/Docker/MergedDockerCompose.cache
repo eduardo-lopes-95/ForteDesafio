@@ -1,4 +1,4 @@
-name: dockercompose7641228396333105768
+name: dockercompose4882374610104982653
 services:
   db:
     environment:
@@ -14,7 +14,7 @@ services:
       protocol: tcp
   forte.ecommerce.api:
     build:
-      context: C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio
+      context: C:\Users\Eduardo Sabino\source\repos\ForteDesafio
       dockerfile: Forte.Ecommerce/Dockerfile
     depends_on:
       db:
@@ -38,17 +38,17 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\07-05-007\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\Eduardo Sabino\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\Eduardo Sabino\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
 networks:
   default:
-    name: dockercompose7641228396333105768_default
+    name: dockercompose4882374610104982653_default

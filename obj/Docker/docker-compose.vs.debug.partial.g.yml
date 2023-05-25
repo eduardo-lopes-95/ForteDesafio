@@ -14,10 +14,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce:/app
-      - C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio:/src
-      - C:\Users\07-05-007\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\07-05-007\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Users\Eduardo Sabino\source\repos\ForteDesafio\Forte.Ecommerce:/app
+      - C:\Users\Eduardo Sabino\source\repos\ForteDesafio:/src
+      - C:\Users\Eduardo Sabino\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Eduardo Sabino\.nuget\packages\:/root/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 

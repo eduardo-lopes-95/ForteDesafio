@@ -29,5 +29,10 @@ public class MapPedido : MapBase<PedidoEntidade>
             .IsRequired()
             .HasColumnName("ValorTotalPedido")
             .HasMaxLength(255);
+
+        builder
+            .HasMany(p => p.Produtos)
+            .WithOne(pe => pe.Pedido)
+            .HasForeignKey(pe => pe.PedidoId);
     }
 }

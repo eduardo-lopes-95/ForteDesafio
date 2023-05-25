@@ -42,5 +42,10 @@ public class MapFornecedor : MapBase<FornecedorEntidade>
             .HasColumnName("Uf")
             .HasMaxLength(255);
 
+        builder
+            .HasMany(f => f.Pedidos)
+            .WithOne(p => p.Fornecedor)
+            .HasForeignKey(p => p.FornecedorId);
+
     }
 }

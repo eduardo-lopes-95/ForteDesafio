@@ -39,3 +39,44 @@ C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\bin\Debug\Forte.Ecommerce.In
 C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Api.deps.json
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Api.runtimeconfig.json
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\appsettings.Development.json
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\appsettings.json
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Api.exe
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Api.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Infraestrutura.Data.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\AutoMapper.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Dominio.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Aplicacao.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\AutoFixture.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Fare.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Api.pdb
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Infraestrutura.Data.pdb
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Dominio.pdb
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Aplicacao.pdb
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\bin\Debug\Forte.Ecommerce.Infraestrutura.CrossCutting.IOC.pdb
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Eduardo Sabino\source\repos\ForteDesafio\obj\Debug\docker-compose.dcproj.CopyComplete

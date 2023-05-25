@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "c0EzpEnLNmZd4dTltsfzCgiEfR1jnd355rlcl+X4bfLfu21qVsYisnHSzZbVW9ZP3284QUZRe3+OEgBR4RHB8A==",
+  "dgSpecHash": "1lDpDPb8zj6cUAY4e8NvQj6y3UqIGiz+4HzKUekErJEuvC0b/bShlvqwMTRgp9MFKQvZL4KZVcPqvwSTMW4lBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\07-05-007\\Documents\\Coding\\C#\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
+  "projectFilePath": "C:\\Users\\Eduardo Sabino\\source\\repos\\ForteDesafio\\Forte.Ecommerce.Aplicacao\\Forte.Ecommerce.Aplicacao.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\07-05-007\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\07-05-007\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eduardo Sabino\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

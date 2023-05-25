@@ -1,94 +1,92 @@
 ﻿using Forte.Ecommerce.Aplicacao.DTO;
 using Forte.Ecommerce.Aplicacao.Interfaces;
 using Forte.Ecommerce.Dominio.Entidades;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Forte.Ecommerce.Api.Controllers
+namespace Forte.Ecommerce.Api.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class ControllerBase<TEntidade, EntidadeDTO> : Controller
+    where TEntidade : Entidade
+    where EntidadeDTO : DTOBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ControllerBase<TEntidade, EntidadeDTO> : Controller
-        where TEntidade : Entidade
-        where EntidadeDTO : DTOBase
+    readonly protected IAplicacao<TEntidade, EntidadeDTO> aplicacao;
+
+    public ControllerBase(IAplicacao<TEntidade, EntidadeDTO> aplicacao)
     {
-        readonly protected IAplicacao<TEntidade, EntidadeDTO> aplicacao;
+        this.aplicacao = aplicacao;
+    }
 
-        public ControllerBase(IAplicacao<TEntidade, EntidadeDTO> aplicacao)
+    [HttpGet]
+    [Route("")]
+    public IActionResult Listar()
+    {
+        try
         {
-            this.aplicacao = aplicacao;
+            var objetos = aplicacao.SelecionarTodos();
+            return new OkObjectResult(objetos);
         }
-
-        [HttpGet]
-        [Route("")]
-        public IActionResult Listar()
+        catch (Exception ex)
         {
-            try
-            {
-                var objetos = aplicacao.SelecionarTodos();
-                return new OkObjectResult(objetos);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return BadRequest(ex.Message);
         }
+    }
 
-        [HttpGet]
-        [Route("{id}")]
-        public IActionResult SelecionarPorId(Guid Id)
+    [HttpGet]
+    [Route("{id}")]
+    public IActionResult SelecionarPorId(Guid Id)
+    {
+        try
         {
-            try
-            {
-                var objeto = aplicacao.SelecionarPorId(Id);
-                return new OkObjectResult(objeto);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var objeto = aplicacao.SelecionarPorId(Id);
+            return new OkObjectResult(objeto);
         }
-
-        [HttpPost]
-        public IActionResult Incluir([FromBody] EntidadeDTO dado)
+        catch (Exception ex)
         {
-            try
-            {
-                return new OkObjectResult(aplicacao.Incluir(dado));
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return BadRequest(ex.Message);
         }
+    }
 
-        [HttpPut]
-        public IActionResult Alterar([FromBody] EntidadeDTO dado)
+    [HttpPost]
+    public IActionResult Incluir([FromBody] EntidadeDTO dado)
+    {
+        try
         {
-            try
-            {
-                aplicacao.Alterar(dado);
-                return new OkObjectResult(true);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return new OkObjectResult(aplicacao.Incluir(dado));
         }
-
-        [HttpDelete]
-        [Route("{id}")]
-        public IActionResult Excluir(Guid Id)
+        catch (Exception ex)
         {
-            try
-            {
-                aplicacao.Excluir(Id);
-                return new OkObjectResult(true);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpPut]
+    public IActionResult Alterar([FromBody] EntidadeDTO dado)
+    {
+        try
+        {
+            aplicacao.Alterar(dado);
+            return new OkObjectResult(true);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpDelete]
+    [Route("{id}")]
+    public IActionResult Excluir(Guid Id)
+    {
+        try
+        {
+            aplicacao.Excluir(Id);
+            return new OkObjectResult(true);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
         }
     }
 }

@@ -22,6 +22,7 @@ public class InjetorDependencias
         svcCollection.AddScoped<IServicoFornecedor, ServicoFornecedor>();
         svcCollection.AddScoped<IServicoProduto, ServicoProduto>();
         svcCollection.AddScoped<IServicoPedido, ServicoPedido>();
+        svcCollection.AddScoped<IServicoPedidoFornecedor, ServicoPedidoFornecedor>();
 
         //Repositorio
         svcCollection.AddScoped(typeof(IRepositorio<>), typeof(Repositorio<>));

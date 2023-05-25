@@ -1,4 +1,4 @@
-name: dockercompose7641228396333105768
+name: dockercompose4882374610104982653
 services:
   db:
     environment:
@@ -14,7 +14,7 @@ services:
       protocol: tcp
   forte.ecommerce.api:
     build:
-      context: C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio
+      context: C:\Users\Eduardo Sabino\source\repos\ForteDesafio
       dockerfile: Forte.Ecommerce/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -57,38 +57,38 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio\Forte.Ecommerce
+      source: C:\Users\Eduardo Sabino\source\repos\ForteDesafio\Forte.Ecommerce
       target: /app
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\vsdbg\vs2017u5
+      source: C:\Users\Eduardo Sabino\vsdbg\vs2017u5
       target: /remote_debugger
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\AppData\Roaming/ASP.NET/Https
+      source: C:\Users\Eduardo Sabino\AppData\Roaming/ASP.NET/Https
       target: /root/.aspnet/https
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\AppData\Roaming/Microsoft/UserSecrets
+      source: C:\Users\Eduardo Sabino\AppData\Roaming/Microsoft/UserSecrets
       target: /root/.microsoft/usersecrets
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\.nuget\packages\
+      source: C:\Users\Eduardo Sabino\.nuget\packages\
       target: /root/.nuget/packages
       read_only: true
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\07-05-007\Documents\Coding\C#\ForteDesafio
+      source: C:\Users\Eduardo Sabino\source\repos\ForteDesafio
       target: /src
       bind:
         create_host_path: true
 networks:
   default:
-    name: dockercompose7641228396333105768_default
+    name: dockercompose4882374610104982653_default
